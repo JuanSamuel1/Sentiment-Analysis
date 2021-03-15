@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 
 app = Flask(__name__)
 
-model = pickle.load(open('models\sentiment_classifier.pkl','rb'))
+model = pickle.load(open('sentiment_classifier.pkl','rb'))
 vectorizer = pickle.load(open('tfidf.pkl','rb'))
 
 @app.route('/')
