@@ -1,10 +1,10 @@
-
+# Sentiment Analysis of Book Comments
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Sentiment Analysis maybe a daunting project to build. Firstly introduced about 20 years ago, sentiment analysis has gained huge popularity and has been used widely in various domain, such as market research, risk management, etc. Using different kind of methods, the model can predict whether 
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
@@ -18,9 +18,9 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Scikit Learn](https://scikit-learn.org/stable/)
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+* [Python](https://www.python.org/)
 
 
 
