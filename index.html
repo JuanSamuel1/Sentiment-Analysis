@@ -4,16 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel='stylesheet' href='./css/style.css'>
+    <link rel='stylesheet' href='./css/style.css.map'>
+    <link rel='stylesheet' href='./scss/style.scss'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <title>Sentiment Analysis</title>
 </head>
 <body>
     <div>
-    <form action='/predict' method= "post">
-        <input name="comment" type="text" >
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
-    </form>
+    <input class="c-checkbox" type="checkbox" id="checkbox">
+    <div class="c-formContainer">
+        <form action='/predict' class="c-form" method= "post" >    
+            <input class='c-form__input' name="comment" type="text"  placeholder="Comment">
+            <label class="c-form__buttonLabel" for="checkbox">
+                <button type="submit" class="c-form__button">Predict</button>
+            </label>
+            <label class="c-form__toggle" for="checkbox" data-title="Comment The Book!"></label>
+        </form>
+    </div>
+
     <br>
     {{pred}} <br>
     </div>
+
 </body>
 </html>
