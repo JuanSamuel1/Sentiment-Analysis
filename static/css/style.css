@@ -131,7 +131,15 @@ body {
 }
 
 .explanation{
-  align-items : center
+  margin:auto;
+  align-items : center;
+  text-align : center;
+}
+
+.whole{
+  margin: auto;
+  align-items: center;
+  text-align: center;
 }
 
 .c-form__button {
