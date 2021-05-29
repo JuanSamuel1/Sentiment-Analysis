@@ -58,6 +58,11 @@ body {
   border-radius: 6.25em;
   background-color: #ffffff;
   transition: 0.2s;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 3px;
 }
 
 .c-form {
@@ -68,6 +73,11 @@ body {
   box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 3px;
 }
 
 .c-form__toggle {
@@ -78,6 +88,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 3px;
 }
 .c-form__toggle::before {
   font-size: 1.75em;

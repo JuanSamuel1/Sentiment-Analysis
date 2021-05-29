@@ -86,8 +86,12 @@ body {
     box-shadow: 0 0.125em 0.3125em rgba($black, 0.3);
 
     // position form inputs
-    display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+
 }
 
 .c-form__toggle {
@@ -114,6 +118,11 @@ body {
     outline: 0;
     border-radius: 5em;
     box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
 }
 
 .c-form__input,
@@ -123,6 +132,11 @@ body {
     visibility: hidden;
     transform: scale(0.7);
     transition: 0s;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
 }
 
 .explanation{
