@@ -161,6 +161,7 @@ body {
   align-items: center;
   text-align: center;
   width: 100%;
+  padding: 5px;
 }
 
 .predictionContainer{
