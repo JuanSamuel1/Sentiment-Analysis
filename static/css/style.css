@@ -130,6 +130,10 @@ body {
   cursor: pointer;
 }
 
+.explanation{
+  align-items : center
+}
+
 .c-form__button {
   color: inherit;
   padding: 0;
