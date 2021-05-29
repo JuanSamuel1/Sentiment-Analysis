@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='./css/style.css'>
-    <link rel='stylesheet' href='./css/style.css.map'>
-    <link rel='stylesheet' href='./scss/style.scss'>
+    <link rel='stylesheet' href='.static/css/style.css'>
+    <link rel='stylesheet' href='.static/css/style.css.map'>
+    <link rel='stylesheet' href='.static/scss/style.scss'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <title>Sentiment Analysis</title>
 </head>
 <body>
-    <div class= "explanation">
-        <h2>Imagine that you have bought and read a book, try to give a comment about the book.</h2>
-        <h2>It will try to classify the comment into nice and bad comment.</h2>
-    </div>
-    <div>
+    <div class="whole">
+        <div class= "explanation">
+            <h2>Imagine that you have bought and read a book, try to give a comment about the book.</h2>
+            <h2>It will try to classify the comment into nice and bad comment.</h2>
+        </div>
     <input class="c-checkbox" type="checkbox" id="checkbox">
     <div class="c-formContainer">
         <form action='/predict' class="c-form" method= "post" >    
