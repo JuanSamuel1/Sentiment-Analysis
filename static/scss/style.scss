@@ -63,6 +63,11 @@ body {
 .c-formContainer {
     position: relative;
     font-weight: 700;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
 }
 
 .c-form,
@@ -118,6 +123,19 @@ body {
     visibility: hidden;
     transform: scale(0.7);
     transition: 0s;
+}
+
+.explanation{
+    margin:auto;
+    align-items : center;
+    text-align : center;
+}
+  
+.whole{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 
 .c-form__input {
