@@ -13,22 +13,24 @@
 </head>
 <body>
     <div class="whole">
-    <div class= "explanation">
-        <h4>Imagine that you have bought and read a book, try to give a comment about the book.</h4>
-        <h4>It will try to classify the comment into nice and bad comment.</h4>
+        <div class= "explanation">
+            <h4>Imagine that you have bought and read a book, try to give a comment about the book.</h4>
+            <h4>It will try to classify the comment into nice and bad comment.</h4>
+        </div>
     </div>
-    <input class="c-checkbox" type="checkbox" id="checkbox">
-    <div class="c-formContainer predictionContainer">
-        <form action='/predict' class="c-form" method= "post" >    
-            <input class='c-form__input' name="comment" type="text"  placeholder="the book is very nice">
-            <label class="c-form__buttonLabel" for="checkbox">
-                <button type="submit" class="c-form__button">Predict</button>
-            </label>
-            <label class="c-form__toggle" for="checkbox" data-title="Give Comment"></label>
-        </form>
-    </div>
+    <div class="whole">
+        <input class="c-checkbox" type="checkbox" id="checkbox">
+        <div class="c-formContainer predictionContainer">
+            <form action='/predict' class="c-form" method= "post" >    
+                <input class='c-form__input' name="comment" type="text"  placeholder="the book is very nice">
+                <label class="c-form__buttonLabel" for="checkbox">
+                    <button type="submit" class="c-form__button">Predict</button>
+                </label>
+                <label class="c-form__toggle" for="checkbox" data-title="Give Comment"></label>
+            </form>
+        </div>
 
-    <br><h4 align="center"<b>{{pred}}</b></h4>
+        <br><h4 align="center"<b>{{pred}}</b></h4>
         <br>
     </div>
 
