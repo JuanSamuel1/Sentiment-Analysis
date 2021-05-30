@@ -2,7 +2,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![project screenshot](https://example.com)
 
 Sentiment Analysis maybe a daunting project to build. Firstly introduced about 20 years ago, sentiment analysis has gained huge popularity and has been used widely in various domain, such as market research, risk management, etc. Using different kind of methods, the model can help us to decide important problem.
 
