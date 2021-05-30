@@ -4,81 +4,17 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Sentiment Analysis maybe a daunting project to build. Firstly introduced about 20 years ago, sentiment analysis has gained huge popularity and has been used widely in various domain, such as market research, risk management, etc. Using different kind of methods, the model can predict whether 
+Sentiment Analysis maybe a daunting project to build. Firstly introduced about 20 years ago, sentiment analysis has gained huge popularity and has been used widely in various domain, such as market research, risk management, etc. Using different kind of methods, the model can help us to decide important problem.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+From the dataset of book review bought in Amazon, I try to make a model to classify between a nice and bad review. Subsequently, I create a web that show the demo of the model and host it at Heroku. You can view the simple website in this link: https://sentiment-analysis-amazon-book.herokuapp.com/
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+It is very challenging to make this project! The hardest part of this project are deciding which machine learning algorithm to use for this problem and deploying it in Heroku.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Lastly, I would like to remind you that this project is still far from perfect as the accuracy of the model is only 80% 😞, any comment or suggestion to improve this project will be highly appreciated.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Here is the list of major frameworks used to built the project. Here are a few examples.
 * [Scikit Learn](https://scikit-learn.org/stable/)
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 * [Python](https://www.python.org/)
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
