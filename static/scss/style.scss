@@ -81,7 +81,9 @@ body {
     box-shadow: 0 0.125em 0.3125em rgba($black, 0.3);
 
     // position form inputs
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .c-form__toggle {
